@@ -2,8 +2,7 @@
 
 ## Description
 
-This is a Python program that allows to sort the a CSV file containing student grades from low to high, high to low, and by median. It generates a CSV file containing the sorted student grades. This program is currently being modified to allow for graphing functionality to visualize the student grades.
-
+This is a Python program that allows to sort the a CSV file containing student grades from low to high, high to low, and by median. It generates a CSV file containing the sorted student grades.
 ## Getting Started
 ### Dependencies
 
