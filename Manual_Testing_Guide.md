@@ -20,7 +20,7 @@ Run the program manually for each test case described later and verify outputs f
    - Check off pass or fail for each test case
 
 ## Test Cases
-1. 1 of them is all zeros 
+1. 1 of the students has all zeros 
     - Avg
         - [ ] Pass
         - [ ] Fail
@@ -34,7 +34,7 @@ Run the program manually for each test case described later and verify outputs f
         - [ ] Pass
         - [ ] Fail
 
-2. 1 of them is all the same number
+2.  1 of the students has all the same number
     - Avg
         - [ ] Pass
         - [ ] Fail
@@ -60,7 +60,7 @@ Run the program manually for each test case described later and verify outputs f
     - Median
         - [ ] Pass
         - [ ] Fail
-4. 1 of them has all 100s
+4. 2 of the students have the same sequence of grades
     - Avg
         - [ ] Pass
         - [ ] Fail
