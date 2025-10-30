@@ -5,17 +5,18 @@ Run the program manually for each test case described later and verify outputs f
 
 ## Pre Requsites
 - Ensure `student_grades.csv` exists at project root.
-- Copy the coresponding data sets file for each test case for example if you are testing test case 1 then copy `manual_tests/student_grades_sample1.csv` to `student_grades.csv`.
+- Copy the coresponding data sets file for each test case for example if you are testing test case 1 then copy `manual_tests/student_grades_testcase1.csv` to `student_grades.csv`.
 
 ## Steps (Repeat 4 times, once per test case)
-1. Copy the data in the student_grades_sample file of the test case you are testing in `student_grades.csv`
+1. Copy the data in the student_grades_testcase file of the test case you are testing in `student_grades.csv`
 2. Run: `python3 main.py`
 3. When prompted, enter one of: `avg`, `high`, `low`, `median`
 4. Confirm program completes without errors.
 5. Open `sorted_grades.csv` and check if:
    - First line is a header 
    - Rows are present and appear sorted by the chosen metric
-   - check the coresponding expected output file. For example, for test case 1 look at `manual_tests/student_grades_sample1_EO.csv` 
+   - check the coresponding expected output file. For example, for test case 1 look at `manual_tests/expected/student_grades_testcase1_EO.csv`
+   - Add the results of what the actual output was under `manual_tests/actual/' with the number of the test case you are testing. For example for test case 1's actual output add `manual_tests/actual/student_grades_testcase_AO.csv`
    - Check off pass or fail for each test case
 
 ## Test Cases
