@@ -15,8 +15,6 @@ This is a Python program that allows to sort the a CSV file containing student g
 ```
 If running locally:
 python3 main.py
-
-If running through replit, press the run button on the top. The run button is already configured to run the program. 
 ```
 
 ## Author Information
