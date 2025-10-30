@@ -1,7 +1,7 @@
 # Manual Testing Guide
 
 ## Goal
-Run the program manually and verify outputs for each sort option.
+Run the program manually for each test case described later and verify outputs for each sort option.
 
 ## Pre Requsites
 - Ensure `student_grades.csv` exists at project root.
