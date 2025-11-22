@@ -15,15 +15,7 @@ def test_student_avg_high_low_median():
     assert float(s.get_median()) == statistics.median([90,88,92,95,91,89,93])
     
 
-# def test_student_duplicates_and_even_count():
-#     from student import Student
-#     s = Student("Even", ["10","20","30","40"])
-#     assert float(s.get_median()) == 25.0
-#     dup = Student("Dup", ["80","80","80","80"])
-#     assert dup.get_avg() == 80
-#     assert int(dup.get_highest()) == 80
-
-# ---------- Algorithm tests for merge sorts ----------
+# algorithm tests for merge sorts
 
 def mk_students():
     from student import Student
