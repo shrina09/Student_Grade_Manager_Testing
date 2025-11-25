@@ -36,7 +36,7 @@ Run the program manually for each test case described later and verify outputs f
 
 2.  1 of the students has all the same number
     - Avg
-        - [] Pass
+        - [ ] Pass
         - [X] Fail: This happens because the code only compares avg values. When two students have the same avgs, the program does not apply any alphabetical tie-breaking, even though it should. Proper handling of this edge case would require sorting by name when the avgs are equal.
     - High
         - [X] Pass
