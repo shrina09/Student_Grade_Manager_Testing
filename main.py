@@ -205,21 +205,15 @@ def merge_sort_median(arr):
 # For writing the sorted_grades.csv file
 def Write_file(students):
     """For writing the sorted_grades.csv file."""
+    with open("sorted_grades.csv", "w", newline="") as csv_file:
+        writer = csv.writer(csv_file)
 
-    with open('sorted_grades.csv', 'w', newline='') as csv_file:
-        words = csv.writer(csv_file)
-        # writes the first line
-        words.writerow(["Name,A0,A1,A2,A3,A4,A5,A6"])
+        # Write header as separate columns
+        writer.writerow(["Name", "A0", "A1", "A2", "A3", "A4", "A5", "A6"])
 
-        # loops through all of the students with their grades and names
-        for i in students:
-            # allows to put a comma after the name
-            row = i.name + ','
-            for t in i.grades:
-                # allows to put a comma after each grade
-                row += str(t) + ','
-            (words.writerow([row]))
-
+        # Write each student as Name + 7 grades, each in its own column
+        for s in students:
+            writer.writerow([s.name, *s.grades])
 
 # For user input and reading the student_grades.csv file
 def main():
